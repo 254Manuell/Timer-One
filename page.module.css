@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.timerContainer {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.timer {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.controls button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #4a4a4a;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.controls button:hover {
+  background-color: #666;
+}
+
